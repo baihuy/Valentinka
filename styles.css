@@ -4,11 +4,11 @@ body {
   align-items: center;
   height: 100vh;
   margin: 0;
-  background: #FEF9F3;
+  background: #f2adbd;
   font-family: 'Dela Gothic One', cursive;
   overflow: hidden;
   transition: background 0.6s ease, color 0.6s ease;
-  color: #2E8B57;
+  color: #891212;
 }
 
 .card {
@@ -35,15 +35,15 @@ button {
   border-radius: 12px;
   cursor: pointer;
   font-family: 'Dela Gothic One', cursive;
-  border: 2px solid #2E8B57;
+  border: 2px solid #891212;
   background: transparent;
-  color: #2E8B57;
+  color: #891212;
   transition: transform 0.2s ease, background 0.2s ease, color 0.2s ease;
 }
 
 #yesBtn {
-  background: #2E8B57;
-  color: #FEF9F3;
+  background: #891212;
+  color: #f2adbd;
 }
 
 button:hover {
