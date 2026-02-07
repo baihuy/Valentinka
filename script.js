@@ -42,7 +42,7 @@ const growInterval = setInterval(() => {
 //
 // 🍆💦 Physics emojis — fully bounded & visible
 //
-const emojis = ["🍆", "💦"];
+const emojis = ["🍆", "💦", "🍑"];
 let floatingItems = [];
 let animationRunning = false;
 const EMOJI_SIZE = 120;
@@ -108,10 +108,10 @@ yesBtn.addEventListener("click", () => {
   subText.style.display = "none";
 
   mainText.innerHTML =
-    "ЙЕСССС.<br>Не се и съмнявах";
+    "ЙЕСССС!<br>Не се и съмнявах<br>(˶  >   ₃  < ˶)";
 
-  document.body.style.background = "#2E8B57";
-  document.body.style.color = "#FEF9F3";
+  document.body.style.background = "#891212";
+  document.body.style.color = "#f2adbd";
 
   setTimeout(() => {
     for (let i = 0; i < 18; i++) createFloatingEmoji();
